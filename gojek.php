@@ -41,7 +41,7 @@ if ($register == false)
             {
             echo "\e[92m[**]".$voucher."\n";
             sleep(8);
-            echo "\e[96m[#] redeem Voucher = GOFOOD022620A \n";
+            echo "\e[96m[#] redeem Voucher = COBAGOFOOD010420A \n";
             sleep(8);
             echo "\e[94m                               \n";
             goto next;
@@ -49,7 +49,7 @@ if ($register == false)
             else{
                 echo "\e[92m[**] ".$claim."\n";
                 sleep(8);
-                echo "\e[96m[#] redeem Voucher = GOFOOD022620A \n";
+                echo "\e[96m[#] redeem Voucher = COBAGOFOOD010420A \n";
                 sleep(8);
                 echo "\e[94m                               \n";
                 goto ride;
@@ -59,7 +59,7 @@ if ($register == false)
             if ($claim == false) {
                 echo "\e[92m[**]".$claim['errors'][0]['message']."\n";
                 sleep(305);
-                echo "\e[96m[#] redeem Voucher = GOFOOD022620A \n";
+                echo "\e[96m[#] redeem Voucher = COBAGOFOOD010420A \n";
                 sleep(8);
                 echo "\e[94m                               \n";
                 goto next1;
@@ -67,7 +67,7 @@ if ($register == false)
             else{
                 echo "\e[92m[**] ".$claim."\n";
                 sleep(8);
-                echo "\e[96m[#] redeem Voucher = GOFOOD022620A \n";
+                echo "\e[96m[#] redeem Voucher = COBAGOFOOD010420A \n";
                 sleep(303);
                 echo "\e[94m                               \n";
                 goto ride;
@@ -77,7 +77,7 @@ if ($register == false)
             if ($claim == false) {
                 echo "\e[92m[**]".$claim['errors'][0]['message']."\n";
                 sleep(8);
-                echo "\e[96m[#] redeem Voucher = GOFOOD022620A \n";
+                echo "\e[96m[#] redeem Voucher = COBAGOFOOD010420A \n";
                 sleep(8);
                 echo "\e[94m                               \n";
                 goto ride;
@@ -86,7 +86,7 @@ if ($register == false)
             {
             echo "\e[92m[**] ".$claim . "\n";
             sleep(8);
-            echo "\e[96m[#] redeem Voucher = GOFOOD022620A \n";
+            echo "\e[96m[#] redeem Voucher = COBAGOFOOD010420A \n";
             sleep(8);
             echo "\e[94m                               \n";
             goto ride;
@@ -96,7 +96,7 @@ if ($register == false)
             if ($claim == false ) {
                 echo "\e[92m[**]".$claim['errors'][0]['message']."\n";
                 sleep(8);
-                echo "\e[96m[#] redeem Voucher = GOFOOD022620A \n";
+                echo "\e[96m[#] redeem Voucher = COBAGOFOOD010420A \n";
                 sleep(8);
                 echo "\e[94m                               \n";
 
@@ -104,7 +104,7 @@ if ($register == false)
             else{
                 echo "\e[92m[**] ".$claim."\n";
                 sleep(8);
-                echo "\e[96m[#] redeem Voucher = GOFOOD022620A \n";
+                echo "\e[96m[#] redeem Voucher = COBAGOFOOD010420A \n";
                 sleep(8);
                 echo "\e[94m                               \n";
                 goto pengen;
