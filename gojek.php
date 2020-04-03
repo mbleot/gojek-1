@@ -1,21 +1,4 @@
-<?php
 
-error_reporting(0);
-if (!file_exists('token')) {
-    mkdir('token', 0777, true);
-}
-
-include ("curl.php");
-echo "\n";
-echo "\e[94m            GASSSS             \n";
-echo "\e[94m                               \n";
-echo "\e[95m          G O J E K\n";
-echo "\e[92m AUTO REGIST+CLAIM VOUCHER\n";
-echo "\n";
-echo "\e[93m[++] Nope (62) = ";
-$nope = trim(fgets(STDIN));
-$register = register($nope);
-if ($register == false)
     {
     echo "\e[91m[x] Nomor sudah Terdaftar\n";
     }
